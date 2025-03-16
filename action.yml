@@ -1,0 +1,14 @@
+name: 'Business Greetings node'
+description: 'Offers professional greetings and timestamps them'
+inputs:
+  name:
+    description: 'Name of the person or team to greet'
+    required: true
+    default: 'Udacity Learner'
+outputs:
+  timestamp:
+    description: 'Time of greeting'
+runs:
+  using: 'node18'
+  main: 'index.js'
+
